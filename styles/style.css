@@ -318,18 +318,16 @@
   padding-bottom: 16px;
 }
 
-.footer__social-icon {
-  padding-bottom: 16px;
-
-}
-
 .footer__column_content_social {
   text-decoration: none;
-  padding-left: 10px;
   color: white;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  
-}
+  display: flex;
 
+
+}
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+  padding-bottom: 16px;
+}
