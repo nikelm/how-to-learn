@@ -322,12 +322,17 @@
   text-decoration: none;
   color: white;
   display: flex;
-
-
+  flex-direction: row;
+  align-items: center;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
+
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  display: flex;
+  align-items: flex-start;
   padding-right: 10px;
-  padding-bottom: 16px;
 }
