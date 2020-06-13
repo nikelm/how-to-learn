@@ -81,6 +81,7 @@
   right: 0;
 }
 
+/* блок description */
 .two-columns {
   width: 80%;
   padding: 100px 0;
@@ -119,6 +120,7 @@
   font-weight: bold;
 }
 
+/* блок digits */
 .section-title {
   width: 60%;
   margin: 0 auto;
@@ -166,6 +168,7 @@
   padding-top: 20px;
 }
 
+/* блок feynman */
 .feynman {
   height: 790px;
   background-color: #f2f2f2;
@@ -205,6 +208,7 @@
   right: 48px;
 }
 
+/* блок kaufman */
 .kaufman {
   background-color: #1f1f1f;
   display: flex;
@@ -315,18 +319,13 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  padding-bottom: 16px;
+  margin: 0;
+  padding-left: 0;
 }
 
 .footer__column_content_social {
-  text-decoration: none;
-  color: white;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
+  flex-direction: column;
 }
 
 .footer__social-icon {
@@ -335,4 +334,21 @@
   display: flex;
   align-items: flex-start;
   padding-right: 10px;
+}
+
+/* Консультировался с наставником:
+"Про название самих ссылок в брифе ничего не сказано, я бы назвал footer__link"*/
+.footer__link {
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  list-style-type: none;
+ }
+
+.footer__link_padding {
+  padding-bottom: 16px;
 }
