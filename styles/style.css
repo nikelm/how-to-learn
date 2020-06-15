@@ -120,14 +120,17 @@
   font-size: 24px;
 }
 
-.two-columns__paragraph_margin_disable {
-  margin: 0;
-}
-
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
+}
+
+/* Спасибо за подсказку про last-child, как все оказывается просто.
+Часа три сидел - думал про эти отступы у последних элементов... Но увы, про
+псевдоклассы не догадался.*/
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 /* блок digits */
@@ -166,12 +169,14 @@
 }
 
 .table__heading {
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
 .table__text {
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -311,6 +316,7 @@
 }
 
 .footer__author {
+  margin: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -323,6 +329,7 @@
 }
 
 .footer__column-heading {
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -378,6 +385,7 @@
   list-style-type: none;
  }
 
-.footer__link-item_padding {
-  padding-bottom: 16px;
-}
+ .footer__link-item:last-child {
+   padding-bottom: 16px;
+ }
+
