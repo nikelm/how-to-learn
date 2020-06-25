@@ -1,0 +1,14 @@
+.footer__link-item {
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  list-style-type: none;
+}
+
+.footer__link-item:last-child {
+  padding-bottom: 16px;
+}
