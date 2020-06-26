@@ -8,6 +8,7 @@
 @import url(./_theme/table__heading_theme_dark.css);
 @import url(./_theme/table__text_theme_dark.css);
 @import url(./__triangle/kaufman__triangle.css);
+@import url(../rotation/rotation.css);
 
 .kaufman {
   background-color: #1f1f1f;
