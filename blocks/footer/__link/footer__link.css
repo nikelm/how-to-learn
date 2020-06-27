@@ -9,4 +9,8 @@
   list-style-type: none;
  }
 
+ .footer__link:hover {
+  opacity: 0.5;
+  transition: opacity 2s linear 0.2s;
+}
 
